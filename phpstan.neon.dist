@@ -1,0 +1,9 @@
+parameters:
+    level: 8
+    inferPrivatePropertyTypeFromConstructor: true
+    checkMissingIterableValueType: false
+    treatPhpDocTypesAsCertain: false
+    bootstrapFiles:
+        - ./src/PhpOpenaiWrapper.php
+    paths:
+        - src

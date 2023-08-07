@@ -1,0 +1,39 @@
+{
+    "name": "firiks/php-openai-wrapper",
+    "description": "PHP wrapper for OpenAI API.",
+    "keywords": ["openai", "wrapper", "api", "php"],
+    "type": "library",
+    "homepage": "https://github.com/Firiks/php-openai-wrapper",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firiks\\PhpOpenaiWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Firiks"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "caseyamcl/guzzle_retry_middleware": "^2.8",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "scripts": {
+        "post-update-cmd": "composer dump-autoload -o",
+        "phpstan": "phpstan analyse --configuration=phpstan.neon.dist --ansi --memory-limit=2G",
+        "phpcs": "phpcs --standard=phpcs.xml.dist",
+        "phpcbf": "phpcbf --standard=phpcs.xml.dist"
+    },
+    "config": {
+      "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
