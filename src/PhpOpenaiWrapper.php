@@ -98,7 +98,7 @@ final class PhpOpenaiWrapper
      *
      * @deprecated Use chat() instead.
      */
-    public function completions(string $model = Models::DAVINCI, array $params = []): Completions
+    public function completions(string $model = Models::GPT_TURBO_INSTRUCT, array $params = []): Completions
     {
         return new Completions($this->getGuzzleClient(), $model, $params);
     }

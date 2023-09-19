@@ -8,6 +8,7 @@ class Models extends Request
 {
     // list of models https://platform.openai.com/docs/guides/gpt
     public const GPT_TURBO = 'gpt-3.5-turbo';
+    public const GPT_TURBO_INSTRUCT = 'gpt-3.5-turbo-instruct';
     public const GPT_4 = 'gpt-4';
     public const EMBEDDING = 'text-embedding-ada-002';
     public const ADA = 'text-ada-001';
