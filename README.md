@@ -2,6 +2,28 @@
 
 This is a PHP wrapper for the [OpenAI API](https://beta.openai.com/docs/api-reference/introduction).
 
+## Requirements
+
+* PHP >= 8.1
+
+## Installation
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+Add in repositories section
+```json
+{
+    "type": "vcs",
+    "url": "https://github.com/Firiks/php-openai-wrapper"
+}
+```
+And in require section
+```json
+"firiks/php-openai-wrapper": "master"
+```
+
 ## Exampe usage
 
 ```php
