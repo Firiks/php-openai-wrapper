@@ -19,7 +19,7 @@
   <!-- Show sniff codes in all reports. -->
   <arg value="ps" />
 
-  <!-- Use PSR-12 Standart -->
+  <!-- Use PSR-12 Standard -->
   <arg name="standard" value="PSR12" />
 
   <!-- Only sniff PHP files. -->
