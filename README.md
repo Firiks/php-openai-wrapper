@@ -21,7 +21,7 @@ Add in repositories section
 ```
 And in require section
 ```json
-"firiks/php-openai-wrapper": "master"
+"firiks/php-openai-wrapper": "dev-master"
 ```
 
 ## Exampe usage
